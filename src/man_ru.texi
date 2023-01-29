@@ -1,0 +1,69 @@
+\input texinfo
+@settitle Instructions for working in 3DViewer v2.0
+
+3DViewer v2.0 User's Guide
+
+Description of 3DViewer v2.0
+
+The application provides a graphical 3DViewer with support for the following functions:
+
+1. Loading a wireframe model from a .obj file (only a list of vertices and edges is supported).
+
+2. Moving the model by a given distance relative to the X, Y, Z axes.
+
+3. Rotate the model by a given angle relative to its X, Y, Z axes.
+
+4. Scaling the model by the specified value.
+
+5. Change the type of projection (parallel and central).
+
+6. Change the type of display of the "edges" lines (solid, dotted), color and thickness.
+
+7. The way the vertices are displayed (missing, circle, square), the color and size of the vertices.
+
+8. Change the background color.
+
+9. Saving the received ("rendered") images to a file in bmp and jpeg formats.
+
+10. Recording small "screencasts" in the form of gif animation.
+
+
+Instruction manual:
+
+1. To download the wireframe model from the obj file, click on the "Browse" button.
+
+2. To save the settings (projection type, line type (solid, dotted), edge color and thickness, vertex display method (missing, circle, square), vertex color and size, background color), click "Save Settings". Note: The settings will be saved between restarts of the program.
+
+3. You can also download previously used settings by simply clicking the "Download Settings" button.
+
+4. In the "Projection" menu, select the type of projection: Parallel or central.
+
+5. In the "Vertex Size" menu, specify the thickness of the vertices.
+
+6. In the "Vertex Type" menu, you can select the type (missing, circle, square).
+
+7. In the "Vertex Color" menu, you can select a color.
+
+8. In the "Edge Type" menu, you can select the type of line (dotted or solid).
+
+9. In the "Edge Color" menu, you can choose a color.
+
+10. In the "Edge Thickness" menu, specify the edge thickness.
+
+11. To move the model relative to the X, Y, Z axes, check the box to the left of the "X", "Y", "Z" fields and move the slider to the right of the "Movement" button.
+
+12. To scale the model, use the slider to the right of the "Move" button.
+
+13. To rotate the model relative to its X, Y, Z axes, use the buttons or enter a value in the corresponding field in the menu next to the specified values "X", "Y", "Z".
+
+14. To create a screenshot, click the "Save" screenshot button. You can find the screenshot on the "Desktop".
+
+15. Next to the "Save" button, you can specify the file format (jpeg or bmp) to save the screenshot.
+
+16. To record a gif animation, click the "Record GIF" button. Then within 5 seconds your gif animation will be recorded. You can find the Gif animation on the "Desktop".
+
+17. To close the program, click on the cross in the upper right corner of the program.
+
+Thanks.
+
+@bye
